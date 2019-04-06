@@ -2,32 +2,44 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Formulario JS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-
+    <meta charset="UTF-8">
+    <title>Propiedades del form</title>
 </head>
 
 <body>
-    <form action="guardar_usuario.html" method="get" enctype="application/x-www-form-urlencoded" name="login">
+    <form action="guardar_usuario.html" method="post" enctype="application/x-www-form-urlencoded" name="login">
         Username <input type="text" id="username" name="username" />
+        <br />
         Password <input type="password" id="pass" name="pass" />
+        <br />
         <input type="submit" name="submit" value="Enviar" />
+        <br />
+        <input type="radio" name="pet" value="cat" checked> Gatos
+        <br>
+        <input type="radio" name="pet" value="dog"> Perros
+        <br>
+        <input type="radio" name="pet" value="other"> Otros
 
-
-        <select name="paises" id="paises">
-            <option value="ar">Argentina</option>
-            <option value="br">Brasil</option>
-            <option value="cl">Chile</option>
-        </select>
-        <input type="submit" name="submit" value="Enviar" />
 
     </form>
 
 
-    <script src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
+
+<!-- Tarea: formulario
+
+Input que pida el nombre
+- Si el nombre tiene menos de 3 caracteres, 
+al enviar el formulario se pone rojo
+
+Input que pida un password
+- Si el password tiene menos de 8 caracteres 
+o no tiene ningun numero, al enviar 
+el formulario se pone en rojo
+
+- Select de opciones (mascotas, pokemones, etc)
+Al enviar el form, si esta bien todo, navegamos a
+la opcion seleccionada  -->
