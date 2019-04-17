@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+html{
+    margin:0px;
+    height: 100vh;    
+}
+
+.error{
+    border: 2px solid red;
+    background-color: pink;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+#nacionalidad{
+    margin: 10px auto 20px;
+}
+#ec{
+    margin: 0px auto;
+}
+
+.tarjeta{
+    margin-top: 19px;
+    background-color: #4158D0;
+background-image: linear-gradient(0deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);  
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 15px;
+    color:black;
+}
+    
+
+.formu{
+    font-size:23px;    
+    background-color: pink;
+    width: 70%;
+    padding: 20px;
+    margin:40px auto;
+    
+background-color: rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    
+}
+
+input, select{
+    width: 94%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.inputs{
+    display: flex;
+    margin-left:25px;
+}
+
+span{
+    font-size: 20px;
+}
+
+#datos-invitades{
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+
+    
+}
+

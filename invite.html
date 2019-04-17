@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="invite.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="tarjeta">
+        <h1>Bienvenidos a mi fiesta</h1>
+
+        <p>Por favor, llena el fomulario para confirmar asistencia.</p>
+
+        <form id="formu" class="formu" action="guardar_usuario.html" method="post" enctype="application/x-www-form-urlencoded"
+            name="login">
+
+            <input type="text" name="Nombre" id="name" placeholder="Nombre">
+            <br />
+            <input type="number" name="Edad" id="age" placeholder="Edad">
+
+            <h5 id="ec">Estado civil</h5>
+
+            <div class="inputs">
+                <span>Quiero conocer gente</span><input type="radio" name="status" value="single" checked>
+                <span>No me presenten a nadie</span><input type="radio" name="status" value="taken">
+            </div>
+
+
+            <h5 id="nacionalidad">Nacionalidad</h5><select name="nacionalidad" id="nac">
+                <option value="ar">argentine</option>
+                <option value="bol">boliviane</option>
+                <option value="br">brasileñe</option>
+                <option value="cl">chilene</option>
+                <option value="vzl">venezolane</option>
+            </select>
+            <br />
+            <input type="submit" name="submit" value="Enviar" />
+
+
+        </form>
+    </div>
+
+    <div id="listaInvitados">
+        <h2>Lista de Invitados</h2>
+
+    </div>
+
+
+
+
+    <script src="invite.js"></script>
+</body>
+
+</html>
