@@ -85,6 +85,8 @@ span{
 
 #datos-invitades{
     margin: 20px auto;
+    padding: 30px;
+    width: 50%;
     border-radius: 15px;
     background-color: #FAACA8;
 background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
@@ -93,3 +95,6 @@ background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     
 }
 
+#boton-borrar{
+    padding-left: 30px;
+}
